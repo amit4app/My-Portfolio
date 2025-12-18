@@ -50,7 +50,7 @@ export default function Hero() {
           </h1>
 
           <h2 className="text-2xl md:text-3xl font-semibold text-gray-200">
-            Mobile & Web Developer also Backend
+            Mobile & Web Developer
           </h2>
 
           {/* BUTTONS */}
