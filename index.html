@@ -38,13 +38,12 @@
 
     <!-- Preload main image -->
     <link rel="preload" as="image" href="/assets/home/home_dp.png" />
-
-    <!-- Main build script -->
-    <script type="module" crossorigin src="/assets/index-a486894d.js"></script>
-    <link rel="stylesheet" href="/assets/index-fdf3c8da.css" />
   </head>
 
   <body>
     <div id="root"></div>
+
+    <!-- ⚠️ IMPORTANT: This must point to your source, NOT build output -->
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
